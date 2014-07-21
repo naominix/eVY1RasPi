@@ -5,7 +5,7 @@ eVY1 Scratch on Raspberry Pi for Pokemiku NSX-39 Installer
 
 ## Installation
 
-Install eVY1 Scratch.
+Install eVY1RasPi Scratch.
 
 ### Network Online
 
@@ -39,6 +39,19 @@ Overwrite or Copy files:
 3. Double click eVY1 Scratch icon on desktop shortcut to start eVY1 Scratch
 4. Click Sound category, Right Click "Play Note Block" and Select MIDI device.
 5. Let's play sample scratch project files (locate: /home/pi/eVY1RasPi/Projects )
+
+## Timidity Installer
+
+```
+$ cd /home/pi
+$ curl https://naominix.github.io/timidityinstall.sh | sh
+```
+
+You need to reboot for changes to take effect
+
+* Install Timidity & SoundFont
+* Customize Timidity Configuration
+* Change /etc/modprobe.d/alsa-base.conf (keep snd-usb-audio from beeing loaded as first soundcard)
 
 ## Special Thanks
 
