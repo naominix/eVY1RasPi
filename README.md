@@ -31,7 +31,6 @@ Overwrite or Copy files:
 * so.MIDIPlugin
 * ja_eVY1.po
 * eVY1.desktop
-* Scratch Projects
 
 ## Getting Started
 
@@ -39,7 +38,7 @@ Overwrite or Copy files:
 2. After the LXDE Desktop displayed, Connect NSX-39(Pocket Miku).
 3. Double click eVY1 Scratch icon on desktop shortcut to start eVY1 Scratch
 4. Click Sound category, Right Click "Play Note Block" and Select MIDI device.
-
+5. Let's play sample scratch project files (locate: /home/pi/eVY1RasPi/Projects )
 
 ## Special Thanks
 
