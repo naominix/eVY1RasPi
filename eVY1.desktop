@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec=/home/pi/eVY1RasPi/eVY1.sh
+Icon=scratch
+Terminal=false
+Name=eVY1 Scratch
+Comment=Control NSX-39(PocketMiku) from Scratch 
+Categories=Application;Education;Development;
+MimeType=application/x-scratch-project
