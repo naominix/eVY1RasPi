@@ -23,9 +23,9 @@ else
 fi
  
 # Install eVY1 locale file
-echo "\n\033[36m\033[1mInstalling eVY1 Scratch locale file(Overwrite)...\033[00m\n"
+echo "\n\033[36m\033[1mInstalling eVY1 Scratch locale file...\033[00m\n"
 if [ -d $SCRATCHDIR ]; then
-    sudo cp eVY1RasPi/ja_eVY1.po $SCRATCHDIR/
+    sudo cp eVY1RasPi/locale/ja_eVY1.po $SCRATCHDIR/
 else
     echo "\n\033[33m\033[1mScratch directory Not Found. Please check Scratch install. Skipped copying.\033[00m\n"
 fi
