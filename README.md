@@ -27,7 +27,11 @@ $ cd eVY1RasPi-master
 $ cat localinstall.sh | sh
 ```
 
-Overwrite so.MIDIPlugin file.
+Overwrite or Copy files:
+* so.MIDIPlugin
+* ja_eVY1.po
+* eVY1.desktop
+* Scratch Projects
 
 ## Getting Started
 
