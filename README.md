@@ -11,8 +11,8 @@ Display Usage.
 $ cd /home/pi
 $ curl https://naominix.github.io/scratchmidiinstall.sh | sh -s hoge
 Invalid option
-Usage: curl https://naominix.github.io/scratchmidiinstall.sh | sh            -> Install ScratchMIDI with Timidity
-       curl https://naominix.github.io/scratchmidiinstall.sh | sh -s (miku)  -> Install eVY1 Scratch for PokeMiku(NSX-39)
+Usage: curl https://naominix.github.io/scratchmidiinstall.sh | sh          -> Install ScratchMIDI with Timidity
+       curl https://naominix.github.io/scratchmidiinstall.sh | sh -s miku  -> Install eVY1 Scratch for PokeMiku(NSX-39)
 ```
 
 Install ScratchMIDI.
