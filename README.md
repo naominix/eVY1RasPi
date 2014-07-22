@@ -1,7 +1,7 @@
 eVY1RasPi
 ==========
 
-eVY1 Scratch on Raspberry Pi for Pokemiku NSX-39 Installer
+eVY1 Scratch for Pokemiku(NSX-39) & ScrachMIDI with Timidity on Raspberry Pi Installer
 
 ## [New]Installation
 
