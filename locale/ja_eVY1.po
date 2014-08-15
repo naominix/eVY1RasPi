@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Scratch\n"
 "Report-Msgid-Bugs-To: Evelyn Eastmond <evelyn@media.mit.edu>\n"
 "POT-Creation-Date: 2008-05-02\n"
-"PO-Revision-Date: 2013-12-14 00:51+0900\n"
+"PO-Revision-Date: 2014-7-11 13:28+0900\n"
 "Last-Translator: Kazuhiro Abe <abee@squeakland.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -57,6 +57,12 @@ msgstr "MIDI経由で再生"
 
 msgid "send phonetic symbol %s"
 msgstr "発音記号 %s を送る"
+
+msgid "send kana %s"
+msgstr "ひらがな %s を送る"
+
+msgid "kanaSample"
+msgstr "ぴょ"
 
 ############################################
 # BLOCKS
