@@ -11,11 +11,11 @@ Display Usage.
 $ cd /home/pi
 $ curl https://naominix.github.io/scratchmidiinstall.sh | sh -s hoge
 Invalid option
-Usage: curl https://naominix.github.io/scratchmidiinstall.sh | sh             -> Install ScratchMIDI with Timidity(1Port)
-       curl https://naominix.github.io/scratchmidiinstall.sh | sh -s miku     -> Install eVY1 Scratch for PokeMiku(NSX-39)
+Usage: curl https://naominix.github.io/scratchmidiinstall.sh | sh             -> Install ScratchMIDI and Timidity(1Port) with so.MIDIPlugin
+       curl https://naominix.github.io/scratchmidiinstall.sh | sh -s miku     -> Install eVY1 Scratch for PokeMiku(NSX-39) with so.MIDIPlugin
        curl https://naominix.github.io/scratchmidiinstall.sh | sh -s plugin   -> Install squeak so.MIDIPlugin only
        curl https://naominix.github.io/scratchmidiinstall.sh | sh -s timidity -> Install Timidity(1Port) only
-       curl https://naominix.github.io/scratchmidiinstall.sh | sh -s midi     -> Install ScratchMIDI only
+       curl https://naominix.github.io/scratchmidiinstall.sh | sh -s midi     -> Install ScratchMIDI with so.MIDIPlugin
 ```
 
 Install ScratchMIDI.
