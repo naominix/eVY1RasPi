@@ -17,7 +17,7 @@ Usage: curl https://naominix.github.io/scratchmidiinstall.sh | sh             ->
        curl https://naominix.github.io/scratchmidiinstall.sh | sh -s midi     -> Install ScratchMIDI with so.MIDIPlugin
 ```
 
-Install ScratchMIDI.
+Install ScratchMIDI & Timidity with so.MIDIPLugin.
 
 ### Network Online
 
@@ -60,6 +60,35 @@ $ curl https://naominix.github.io/scratchmidiinstall.sh | sh -s miku
 3. Double click eVY1 Scratch icon on desktop shortcut to start eVY1 Scratch
 4. Click Sound category, Right Click "Play Note Block" and Select MIDI device.
 5. Let's play sample scratch project files (locate: /home/pi/eVY1RasPi/Projects )
+
+Install ScratchMIDI with so.MIDIPLugin ( without Timidity )
+
+### Network Online
+
+```
+$ cd /home/pi
+$ curl https://naominix.github.io/scratchmidiinstall.sh | sh -s midi
+```
+
+* Install patched so.MIDIPlugin
+* Install ScratchMIDI runtime environment(ScratchMIDI image & Desktop shortcut & Shell Script)
+
+## Getting Started
+
+0. MIDI instruments connect to Raspberry Pi 
+1. Double click ScratchMIDI icon on desktop shortcut to start ScratchMIDI
+2. Let's play!
+
+Install Timidity only ( 1Port configuration )
+
+### Network Online
+
+```
+$ cd /home/pi
+$ curl https://naominix.github.io/scratchmidiinstall.sh | sh -s timidity
+```
+
+* Install Timitidy ( 1Port Configuration ) only
 
 ## Special Thanks
 
