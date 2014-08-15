@@ -21,7 +21,7 @@ Usage: curl https://naominix.github.io/scratchmidiinstall.sh | sh
             -> Install Timidity(1Port) only
 ```
 
-## Install ScratchMIDI & Timidity with so.MIDIPLugin.
+## Install ScratchMIDI & Timidity with so.MIDIPlugin.
 
 ### Network Online
 
@@ -65,7 +65,7 @@ $ curl https://naominix.github.io/scratchmidiinstall.sh | sh -s miku
 4. Click Sound category, Right Click "Play Note Block" and Select MIDI device.
 5. Let's play sample scratch project files (locate: /home/pi/eVY1RasPi/Projects )
 
-## Install ScratchMIDI with so.MIDIPLugin ( without Timidity )
+## Install ScratchMIDI with so.MIDIPlugin ( without Timidity )
 
 ### Network Online
 
