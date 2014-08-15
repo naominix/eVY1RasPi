@@ -3,7 +3,7 @@ eVY1RasPi
 
 eVY1 Scratch for Pokemiku(NSX-39) & ScrachMIDI with Timidity on Raspberry Pi Installer
 
-## [New]Installation
+# Installation
 
 Display Usage.
 
@@ -17,7 +17,7 @@ Usage: curl https://naominix.github.io/scratchmidiinstall.sh | sh             ->
        curl https://naominix.github.io/scratchmidiinstall.sh | sh -s midi     -> Install ScratchMIDI with so.MIDIPlugin
 ```
 
-Install ScratchMIDI & Timidity with so.MIDIPLugin.
+## Install ScratchMIDI & Timidity with so.MIDIPLugin.
 
 ### Network Online
 
@@ -34,13 +34,13 @@ You need to reboot for changes to take effect
 * Change /etc/modprobe.d/alsa-base.conf (keep snd-usb-audio from beeing loaded as first soundcard)
 * Install ScratchMIDI runtime environment(ScratchMIDI image & Desktop shortcut & Shell Script)
 
-## Getting Started
+### Getting Started
 
 1. Reboot Raspberry Pi
 2. Double click ScratchMIDI icon on desktop shortcut to start ScratchMIDI
 3. Let's play!
 
-Install eVY1RasPi Scratch.
+## Install eVY1RasPi Scratch.
 
 ### Network Online
 
@@ -53,7 +53,7 @@ $ curl https://naominix.github.io/scratchmidiinstall.sh | sh -s miku
 * Install ja_eVY1.po
 * Install eVY1 Scratch image & eVY1.desktop files
 
-## Getting Started
+### Getting Started
 
 1. Boot Raspberry Pi
 2. After the LXDE Desktop displayed, Connect NSX-39(Pocket Miku).
@@ -61,7 +61,7 @@ $ curl https://naominix.github.io/scratchmidiinstall.sh | sh -s miku
 4. Click Sound category, Right Click "Play Note Block" and Select MIDI device.
 5. Let's play sample scratch project files (locate: /home/pi/eVY1RasPi/Projects )
 
-Install ScratchMIDI with so.MIDIPLugin ( without Timidity )
+## Install ScratchMIDI with so.MIDIPLugin ( without Timidity )
 
 ### Network Online
 
@@ -73,13 +73,13 @@ $ curl https://naominix.github.io/scratchmidiinstall.sh | sh -s midi
 * Install patched so.MIDIPlugin
 * Install ScratchMIDI runtime environment(ScratchMIDI image & Desktop shortcut & Shell Script)
 
-## Getting Started
+### Getting Started
 
 0. MIDI instruments connect to Raspberry Pi 
 1. Double click ScratchMIDI icon on desktop shortcut to start ScratchMIDI
 2. Let's play!
 
-Install Timidity only ( 1Port configuration )
+## Install Timidity only ( 1Port configuration )
 
 ### Network Online
 
