@@ -8,7 +8,8 @@
 VM_VERSION=`find /usr/lib/squeak/ -name "squeakvm" -type f|cut -f5 -d"/"`
 SQ_DIR=/usr/lib/squeak/$VM_VERSION
 VM="$SQ_DIR/squeakvm"
-VMOPTIONS="-encoding UTF-8 -vm-display-x11 -xshm -plugins /usr/lib/scratch/plugins/:$SQ_DIR/ -compositioninput"
+test -z "${DISPLAY%:*}" && XSHM="-xshm"
+VMOPTIONS="-encoding UTF-8 -vm-display-x11 $XSHM -plugins /usr/lib/scratch/plugins/:$SQ_DIR/ -compositioninput"
 IMAGE="./ScratchMIDI/Scratch20131203MIDI.image"
 IMOPTIONS=""
 DOCUMENT=""
